@@ -1,0 +1,82 @@
+html {
+  height: 1000px;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-size: 50px;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+
+  p{
+    font-family: 'Inconsolata', monospace;
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: #4d4d4d;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: ivory;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: lightslategray;
+    border: none;
+    border-radius: 20px;
+  }
+
+.summary {
+    background-color: #4d4d4d;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: ivory;
+    border: none;
+    border-radius: 20px;
+
+  }
+  #back{
+    color: #fff;
+    text-decoration: none;
+    background: #4d2600;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 2.4s ease 0s;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-left: 1px;
+    margin-right: 10px;
+  }
+
+body {
+  background-image: url('https://libreshot.com/wp-content/uploads/2016/07/red-background-book-861x646.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1520px 1000px;
+  }
+
+  a{
+    color: hotpink;
+  }
+
