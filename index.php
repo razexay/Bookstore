@@ -19,7 +19,8 @@ $stmt->execute(['year' => $year, 'title' => '%' . $title . '%']);
     <link rel="stylesheet" href="index_style.css">
     <title>Document</title>
 </head>
-<body style="background-color:#ffa64d;">     
+
+<body style="background-color:#ffa64d;">
     <h1>Otsing</h1>
     <form action="index.php" method="get">
         <input type="text" name="title" placeholder="Pealkiri" style="border-radius: 5px; margin: 4px; border: none; padding: 4px;" value='<?=$title;?>'>
@@ -28,6 +29,7 @@ $stmt->execute(['year' => $year, 'title' => '%' . $title . '%']);
         <br>
         <input type="submit" value="Code mad" style="padding: 5px; font-size: 15px; color: white; background: #4d2600; border: none; border-radius: 5px; margin-left: 5px; margin: 4px;">
     </form>
+    <a id="editing" href="insert.php?id=' . $row['id'] . '">Insert</a>
     <ul style="color: #4d2600; font-size: 25px;">
 
 <?php

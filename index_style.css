@@ -3,3 +3,14 @@ a {
     text-decoration: none;
     font-size: 25px;
 }
+#editing{
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.349);
+    border: none;
+    border-radius: 5px;
+    color: #402c2b;
+    padding: 5px;
+    margin-top: 5px;
+  }

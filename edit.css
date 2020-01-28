@@ -1,0 +1,37 @@
+p {
+    font-size: 35px;
+    text-align: center;
+    color: aliceblue;
+}
+
+input{
+    text-align: center;
+}
+
+#sisestus{
+    border-radius: 5px; 
+    border: none; 
+    padding: 4px;
+    margin: 5px;
+}
+
+#divstyle {
+    background-color: 
+    rgba(0, 0, 0, 0.137);
+    height: 400px;
+    margin-top: -35px;
+
+}
+
+#textplacement{
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/19/11/53/book-1210030_960_720.jpg');
+    height: 400px; 
+    margin: auto;
+    width: 40%;
+    border: 3px solid black;
+    margin-top: 50px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }

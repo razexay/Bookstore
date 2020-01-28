@@ -21,7 +21,7 @@ $book = $stmt->fetch()
 <body>
     <h1><?= $book['title']; ?></h1>
     <img src="<?= $book['cover_path']; ?>" alt="" class="center"> 
-    <button id="back" onclick="history.back()"> ⫷ </button> 
+    <button id="back" onclick="history.back()">BACK</button> 
     <div class="flex-container">
         <div> <?= $book['release_date']; ?></div>
         <p>KEEL: <?= $book['language']; ?></p>
@@ -32,7 +32,8 @@ $book = $stmt->fetch()
         <p>AUTOR: <?= $book['first_name']; ?> <?= $book['last_name']; ?></p>
     </div>
         <div class="summary">KIRJELDUS: <?= $book['summary']; ?></div>
-    
+        <a id="editing" href="edit.php?id=<?=$id ?>">Edit</a>
+        <a id="editing" href="delete.php?id=<?=$id ?>">Delete</a>
 </body>
 </html>
 
